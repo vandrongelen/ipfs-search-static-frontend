@@ -1,0 +1,22 @@
+{
+  "name": "ipfs-search-static-frontend",
+  "version": "1.0.0",
+  "description": "Starter for Bootstrap workflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "bootstrap": "latest",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "author": "Brad Traversy",
+  "license": "ISC"
+}
