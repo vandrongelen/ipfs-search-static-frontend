@@ -12,7 +12,7 @@
   right:0;
   height:45vh;
   background-image: url("../assets/background-02.png");
-  background-color: $bright-color;
+  background-color: $dark-color;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -45,7 +45,7 @@
       .glyphicons-search {
         position: absolute;
         font-size:28px;
-        color: lighten( $black-color, 50% );
+        color: darken( $white-color, 30% );
         left:-3px;
         top:0;
       }
@@ -91,6 +91,7 @@
 // What happens if we have results
 body.active {
   .header-wrapper {
+    background-image: none;
     height:132px;
     .container {
       .identity {

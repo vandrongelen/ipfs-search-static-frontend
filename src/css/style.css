@@ -5236,7 +5236,7 @@ input[type="text"], textarea, .list-group-item {
       .header-wrapper .container .search-bar .glyphicons-search {
         position: absolute;
         font-size: 28px;
-        color: gray;
+        color: #b3b3b3;
         left: -3px;
         top: 0; }
 
@@ -5265,6 +5265,7 @@ input[type="text"], textarea, .list-group-item {
       margin-bottom: 15px; }
 
 body.active .header-wrapper {
+  background-image: none;
   height: 132px; }
   body.active .header-wrapper .container .identity {
     top: 15px; }
