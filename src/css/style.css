@@ -5207,9 +5207,9 @@ input[type="text"], textarea, .list-group-item {
   top: 0px;
   left: 0;
   right: 0;
-  height: 45vh;
+  height: 50vh;
   background-image: url("../assets/background-02.png");
-  background-color: #3a5559;
+  background-color: #0e3344;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -5280,7 +5280,6 @@ body.active .footer-wrapper {
 
 @media (max-width: 576px) {
   .header-wrapper {
-    height: 200px;
     background-size: 800px;
     top: 0px; }
     .header-wrapper .container .identity {
