@@ -11,7 +11,11 @@
   left:0;
   right:0;
   height:45vh;
+  background-image: url("../assets/background-02.png");
   background-color: $bright-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   transition: top 0.1s ease-in-out;
   .container {
     position:absolute;
@@ -115,6 +119,7 @@ body.active {
 @media (max-width: 576px) {
   .header-wrapper {
     height:200px;
+    background-size: 800px;
     top:0px;
     .container {
       .identity {
@@ -174,7 +179,6 @@ body.active {
       border: 0;
       .modal-header {
         border-bottom: none;
-
       }
       .modal-body {
         padding-top:0;

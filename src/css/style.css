@@ -5208,7 +5208,11 @@ input[type="text"], textarea, .list-group-item {
   left: 0;
   right: 0;
   height: 45vh;
-  background-color: #77ebec;
+  background-image: url("../assets/background-02.png");
+  background-color: #3a5559;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   transition: top 0.1s ease-in-out; }
   .header-wrapper .container {
     position: absolute;
@@ -5276,6 +5280,7 @@ body.active .footer-wrapper {
 @media (max-width: 576px) {
   .header-wrapper {
     height: 200px;
+    background-size: 800px;
     top: 0px; }
     .header-wrapper .container .identity {
       top: 15px; }
