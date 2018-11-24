@@ -8,14 +8,15 @@
   },
   "dependencies": {
     "bootstrap": "latest",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
+    "font-awesome": "latest",
+    "hoek": "^5.0.3",
+    "jquery": "latest",
+    "popper.js": "latest"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-sass": "latest"
   },
   "author": "Brad Traversy",
   "license": "ISC"
