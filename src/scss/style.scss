@@ -71,6 +71,19 @@
   z-index: 0;
   position:relative;
   .container {
+    .list-group {
+      .list-group-item {
+        h5 {
+          overflow: hidden;
+          word-wrap:break-word;
+          padding-right: 12px;
+        }
+        p, small {
+          overflow: hidden;
+          word-wrap:break-word;
+        }
+      }
+    }
     .form-check {
       padding-top: 5px;
       padding-bottom: 5px;
@@ -192,6 +205,10 @@ body.active {
       border: 0;
       .modal-header {
         border-bottom: none;
+        h5 {
+          overflow: hidden;
+          word-wrap:break-word;
+        }
       }
       .modal-body {
         padding-top:0;
@@ -199,6 +216,12 @@ body.active {
         background-color: white;
         p {
           align-self: flex-start;
+        }
+        dl {
+          dd {
+            overflow: hidden;
+            word-wrap:break-word;
+          }
         }
       }
     }
